@@ -37,6 +37,10 @@ The bot jumps between a configured set of coins on the condition that it does no
 -   Create a new API key.
 -   Get a cryptocurrency. If its symbol is not in the default list, add it.
 
+## Requirement
+
+Python 3.6 or above
+
 ## Tool Setup
 
 ### Install Python dependencies

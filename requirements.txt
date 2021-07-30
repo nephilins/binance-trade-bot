@@ -11,4 +11,4 @@ unicorn-fy==0.11.0
 schedule==1.1.0
 gunicorn==20.1.0
 cachetools==4.2.2
-unicorn-binance-websocket-api==1.30.0
+unicorn-binance-websocket-api==1.31.0

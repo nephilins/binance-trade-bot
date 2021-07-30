@@ -54,7 +54,7 @@ class Strategy(AutoTrader):
             self.logger.info(f"Setting initial coin to {current_coin_symbol}")
 
             if current_coin_symbol not in self.config.SUPPORTED_COIN_LIST:
-                sys.exit("***\nERROR!\nSince there is no backup file, a proper coin name must be provided at init\n***")
+                sys.exit("***\nERROR!\n **Since there is no backup file, a proper coin name must be provided at init**\n***")
             self.db.set_current_coin(current_coin_symbol)
 
             # if we don't have a configuration, we selected a coin at random... Buy it so we can start trading.
